@@ -1,0 +1,69 @@
+.feedback {
+	width: 100%;
+	background-image: url(../../images/8.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.feedback .overlay {
+	background-color: rgba(255, 255, 255, 0.3);
+	position: absolute;
+}
+.feedback .service_info {
+	margin-bottom: 0;
+	position: relative;
+}
+.owl-carousel {
+	width: 90%;
+	position: relative;
+}
+.owl-theme .owl-controls .owl-buttons {
+	/*position: absolute;*/
+	
+}
+.owl-theme .owl-controls .owl-buttons div {
+	zoom: 1.5;
+	padding: 7px 10px;
+	position: relative;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+	position: absolute;
+	left: -40px;
+	bottom: 50%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	position: absolute;
+	left: 100%;;
+	bottom: 50%;
+}
+.feedback .carousel_block {
+	width: 85%;
+	padding: 30px;
+	line-height: 1.4;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 auto 50px;
+}
+.carousel_block .title {
+	font-family: "Open Sans";
+}
+.carousel_block .text {
+	font-family: "Open Sans";
+	padding-left: 0;
+	margin: 20px 0 0;
+}
+
+@media (max-width: 425px) {
+	.feedback .carousel_block {
+	    width: 100%;
+	}
+	.owl-theme .owl-controls {
+		display: none;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev, .owl-theme .owl-controls .owl-buttons .owl-next {
+		display: none;
+	}
+}
+
+
+
+

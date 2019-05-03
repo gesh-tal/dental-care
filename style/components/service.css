@@ -1,0 +1,88 @@
+
+.service {
+	width: 100%;
+}
+.service_info {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.service_block {
+	width: 23%;
+	border: 1px solid #40a0f0;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 20px;
+}
+.service_head {
+	width: 100%;
+	padding: 30px;
+	color: #000;
+	text-align: center;
+}
+.service_head h1 {
+	font-family: 'Philosopher', serif;
+	font-size: 30px;
+	margin: 35px 0 25px;
+}
+.service_img {
+	width: 100%;
+	height: 230px;
+}
+.service_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.service_block .text h2 {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 30px;
+	color: darkorange;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 3px #000, 2px 2px 2px #000, 2px 2px 2px #fff;
+}
+.service_block .text p {
+	color: #fff;
+}
+
+.service .service_block .title {
+	width: 100%;
+	height: 65px;
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(7, 167, 227, 0.7);
+}
+
+
+@media (max-width: 768px) {
+	.service_block {
+		width: 43%;
+	}
+}
+
+@media (max-width: 500px) {
+	.service_img {
+		height: 200px;
+	}
+}
+
+@media (max-width: 425px) {
+	.service_block {
+		width: 80%;
+	}
+	.service_head h1 {
+		padding-left: 10px;
+	}
+}
+
+
+
+
+
+
+

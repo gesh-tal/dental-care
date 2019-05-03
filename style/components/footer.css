@@ -1,0 +1,67 @@
+footer {
+	width: 100%;
+	background-color: #40a0f0;
+	padding: 60px;
+}
+.footer_info {
+	width: 100%;
+	display: flex;
+	color: darkorange;
+	color: #fff;
+}
+.category {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.category p, .category a {
+	font-family: 'Philosopher', serif;
+	text-decoration: none;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.socials {
+	width: 50%;
+	text-align: right;
+}
+.socials a {
+	margin-right: 20px;
+	color: #fff;
+}
+.fa-instagram, .fa-vk, .fa-facebook {
+	font-size: 35px;
+}
+.fas, .far {
+	color: #40a0f0;
+	margin: 0 10px;
+}
+.fa-phone {
+	transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+	footer {
+		padding: 30px;
+	}
+}
+
+@media (max-width: 425px) {
+	.footer_info {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.category {
+		width: 100%;
+	}
+	.socials {
+		width: 100%;
+		display: flex;
+    	flex-direction: row;
+	}
+}
+
+
+
+
+

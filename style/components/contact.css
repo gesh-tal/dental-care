@@ -1,0 +1,60 @@
+.contact {
+	width: 100%;
+	/*background-color: #000;*/
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact_block {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #000;
+	padding: 30px 0;
+}
+.contact_block:last-child {
+	border-right: none;
+}
+.contact_block p, .contact_block a {
+	font-family: 'Philosopher', serif;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #000;
+}
+.contact_block .fas {
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.fa-phone {
+	transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+	.contact {
+		padding: 60px 30px;
+	}
+	.contact_block {
+		width: 33%;
+		/*padding: 30px;*/
+	}
+}
+
+@media (max-width: 600px) {
+	.contact {
+		padding: 30px 0;
+		flex-direction: column;
+	}
+	.contact_block {
+		width: 70%;
+		border: none;
+	}
+}
+
+
+
+

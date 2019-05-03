@@ -1,0 +1,134 @@
+
+.consultation {
+	width: 100%;
+}
+.consultation_head {
+	width: 100%;
+	height: 80px;
+	background-color: #453c65;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	padding: 30px;
+	color: #fff;
+}
+.consultation_info {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.consultation_block {
+	width: 100%;
+	display: flex;
+}
+
+.consultation_block .left {
+	width: 50%;
+	background-image: url(../../images/27.jpg);
+	color: #fff;
+	padding: 50px 0;
+	position: relative;
+}
+.consultation_block .left h1, .consultation_block .right h1 {
+	font-family: 'Philosopher', serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.hours {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.row {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	border-bottom: 1px solid #fff;
+}
+.row:last-child {
+	border: none;
+}
+.day {
+	width: 60%;
+	font-family: "Open Sans";
+}
+.time {
+	width: 40%;
+	font-family: "Open Sans";
+	text-align: right;
+}
+.consultation_block .right {
+	width: 50%;
+	background-image: url(../../images/24.jpg);
+	background-color: #07a7e3;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	color: #fff;
+	padding: 50px 0;
+	position: relative;
+}
+.consultation_block .right .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(7, 167, 227, 0.7);
+	position: absolute;
+	top: 0;
+}
+.consultation_block .left .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+}
+.consultation_block form {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.consultation_block .right input {
+	width: 35%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	border-radius: 20px;
+	outline: none;
+}
+::-webkit-inner-spin-button {
+    display: none;
+}
+.consultation_block .button {
+	font-family: "Open Sans";
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+@media (max-width: 630px) {
+	.consultation_block {
+		flex-direction: column;
+	}
+	.consultation_block .left, .consultation_block .right {
+		width: 100%;
+	}
+}
+
+@media (max-width: 375px) {
+	.consultation_block .right input {
+	    width: 65%;
+	}
+}
+
+
+
+
