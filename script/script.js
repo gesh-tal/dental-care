@@ -31,8 +31,6 @@ $(document).ready(function(){
   		items: 3,
   		autoPlay: 3500,
   		pagination: false,
-  		// navigation: true,
-  		// navigationText: ["<",">"],
   		itemsDesktop: [1199,3],
   		itemsDesktopSmall: [979,2],
   		itemsTablet: [768,1]
