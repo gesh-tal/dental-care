@@ -20,7 +20,6 @@
 	width: 100%;
 	display: flex;
 }
-
 .consultation_block .left {
 	width: 50%;
 	background-image: url(../../images/27.jpg);
@@ -113,7 +112,6 @@
 	background-color: #fff;
 	margin-top: 20px;
 }
-
 @media (max-width: 630px) {
 	.consultation_block {
 		flex-direction: column;
@@ -128,7 +126,3 @@
 	    width: 65%;
 	}
 }
-
-
-
-

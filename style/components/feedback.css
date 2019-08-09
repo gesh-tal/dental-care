@@ -17,10 +17,6 @@
 	width: 90%;
 	position: relative;
 }
-.owl-theme .owl-controls .owl-buttons {
-	/*position: absolute;*/
-	
-}
 .owl-theme .owl-controls .owl-buttons div {
 	zoom: 1.5;
 	padding: 7px 10px;
@@ -63,7 +59,3 @@
 		display: none;
 	}
 }
-
-
-
-
